@@ -27,8 +27,15 @@ p {
   font-family: "Indie Flower", cursive;
 }
 
+Button {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+  border-radius: 10px;
+}
+
 img {
-  width:;
+  width:
 }
 
 footer {
