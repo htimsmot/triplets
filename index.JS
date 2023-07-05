@@ -1,3 +1,4 @@
+
 function updateSite(n) {
   document
     .querySelector(".img1")
