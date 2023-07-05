@@ -33,25 +33,31 @@ function updateSite(n) {
 document.querySelector("#person").addEventListener("click", function () {
   var selectedPerson = Math.floor(1 + Math.random() * 6);
   updateSite(selectedPerson);
+  document.querySelector("#reveal").innerHTML = "Your random person is";
 });
 
 document.querySelector("#triplet").addEventListener("click", function () {
   var selectedTriplet = Math.floor(1 + Math.random() * 3);
   updateSite(selectedTriplet);
+  document.querySelector("#reveal").innerHTML = "Your random triplet is";
 });
 
 document.querySelector("#child").addEventListener("click", function () {
   var selectedChild = Math.floor(1 + Math.random() * 4);
   updateSite(selectedChild);
+  document.querySelector("#reveal").innerHTML = "Your random child is";
 });
 
 document.querySelector("#adult").addEventListener("click", function () {
   var selectedAdult = Math.floor(5 + Math.random() * 2);
   updateSite(selectedAdult);
+  document.querySelector("#reveal").innerHTML = "Your random parent is";
 });
 
 document.querySelector("#top").addEventListener("click", function () {
   const date = new Date();
   var atTop = Math.floor((date.getTime() / (60000 * 60 * 24) + 1) % 3);
   updateSite(atTop);
-  });
+  document.querySelector("#reveal").innerHTML =
+    "The person at the top today is";
+});
