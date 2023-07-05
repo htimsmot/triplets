@@ -25,8 +25,9 @@ h1 {
 
 p {
   font-size: 2rem;
-  color: #6096b4;
+  
   font-family: poppins, sans-serif;
+  color: #6096b4;
 }
 
 button {
