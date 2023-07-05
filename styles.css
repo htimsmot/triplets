@@ -35,6 +35,14 @@ button {
   margin: 0.35rem;
 }
 
+.but {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+  border-radius: 10px;
+  margin: 0.35rem;
+}
+
 img {
   width:
 }
