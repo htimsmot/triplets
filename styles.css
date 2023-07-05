@@ -22,6 +22,10 @@ p {
   font-family: "Indie Flower", cursive;
 }
 
+img {
+  width: 500px;
+}
+
 button {
   font-size: 2rem;
   color: #4ecca3;
