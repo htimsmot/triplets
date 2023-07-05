@@ -4,11 +4,6 @@
   text-align: center;
 }
 
-.dice {
-  text-align: center;
-  display: inline-block;
-}
-
 body {
   background-color: #393e46;
 }
@@ -32,17 +27,6 @@ button {
   color: #4ecca3;
   font-family: "Indie Flower", cursive;
   border-radius: 10px;
-  margin: 0.35rem;
+  margin: 0.5rem;
   width: 500px;
-}
-
-img {
-  width: 500px;
-}
-
-footer {
-  margin-top: 5%;
-  color: #eeeeee;
-  text-align: center;
-  font-family: "Indie Flower", cursive;
 }
