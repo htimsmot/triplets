@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #c1ece;
+  background-color: #b5c99a;
 }
 
 h1 {
@@ -13,12 +13,12 @@ h1 {
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 5rem;
-  color: #4ecca3;
+  color: #862b0d;
 }
 
 p {
   font-size: 2rem;
-  color: #4ecca3;
+  color: #862b0d;
   font-family: "Indie Flower", cursive;
 }
 
@@ -29,7 +29,7 @@ img {
 
 button {
   font-size: 2rem;
-  color: #4ecca3;
+  color: #862b0d;
   font-family: "Indie Flower", cursive;
   border-radius: 10px;
   margin: 0.5rem;
