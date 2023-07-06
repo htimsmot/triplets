@@ -57,7 +57,7 @@ document.querySelector("#adult").addEventListener("click", function () {
 
 document.querySelector("#top").addEventListener("click", function () {
   const date = new Date();
-  var atTop = Math.floor((date.getTime() / (60000 * 60 * 24) + 1) % 3);
+  var atTop = Math.floor(((date.getTime() / (60000 * 60 * 24)) % 3)+1);
   updateSite(atTop);
   document.querySelector("#reveal").innerHTML =
     "The person at the top today is";
